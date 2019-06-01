@@ -36,6 +36,7 @@ class Song
   def self.find_by_name(song_name)
     @@all.find {|song| song.name == song_name}
   end
+<<<<<<< HEAD
   
   def self.find_or_create_by_name(a_song_name)
     find = self.find_by_name(a_song_name)
@@ -68,4 +69,6 @@ class Song
   def self.destroy_all
     @@all.clear
   end 
+=======
+>>>>>>> 0b70181917b74c24f25ecad83cc8774872774e90
 end
